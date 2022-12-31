@@ -1,0 +1,93 @@
+.container {
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 10px 30px;
+}
+
+.title {
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.infos {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form {
+    width: 48%;
+    float: left;
+}
+
+.form label {
+    display: block;
+    color: rgba(0, 0, 0, 0.582);
+}
+
+.form input {
+    border: none;
+    outline: none;
+    width: 100%;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    padding: 5px 0;
+}
+
+button {
+    color: white;
+    background-color: red;
+    outline: none;
+    border: none;
+    display: block;
+    text-transform: uppercase;
+    margin: 20px auto;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.succes,
+.fail {
+    display: block;
+    margin: 20px auto;
+    color: white;
+    padding: 10px;
+    width: fit-content;
+}
+
+.succes {
+    background-color: rgb(21, 126, 21);
+}
+
+.fail {
+    background-color: rgb(248, 41, 41);
+}
+
+.hide {
+    display: none;
+}
+
+.charge {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 0 10px;
+    border: 1px solid rgba(190, 184, 184, 0.452);
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+}
+
+.price {
+    color: white;
+    background-color: red;
+}
+
+.btns button {
+    margin-left: 5px;
+}
